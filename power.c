@@ -10,14 +10,6 @@ double Power(double x, int y)
 
 double Exponent (int x)
 {
-double result = 1;
-double e =2.718;
-int exp = x;
-while (exp !=0)
-{
-result = result *e;
---exp;
-}
-return result;
+Power(2.718, x);
 }
 
